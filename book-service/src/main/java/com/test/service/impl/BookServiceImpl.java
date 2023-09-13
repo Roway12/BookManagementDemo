@@ -3,8 +3,10 @@ package com.test.service.impl;
 import com.test.entity.Book;
 import com.test.mapper.BookMapper;
 import com.test.service.BookService;
-import jakarta.annotation.Resource;
+//import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
 
 @Service
 public class BookServiceImpl implements BookService {
