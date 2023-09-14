@@ -1,5 +1,7 @@
 package com.test.service.impl;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.test.entity.Book;
 import com.test.entity.Borrow;
 import com.test.entity.User;
@@ -13,6 +15,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -29,6 +32,7 @@ public class BorrowServiceImpl implements BorrowService {
     BookClient bookClient;
 
     @Override
+    @SentinelResource(value = "getBorrow", blockHandler = "blocked")
     public UserBorrowDetail getUserBorrowDetailByUid(int uid) {
         List<Borrow> borrow = mapper.getBorrowsByUid(uid);
         User user = userClient.getUserById(uid);
@@ -37,6 +41,11 @@ public class BorrowServiceImpl implements BorrowService {
                 .map(b -> bookClient.getBookById(b.getBid()))
                 .collect(Collectors.toList());
         return new UserBorrowDetail(user, bookList);
-
     }
+
+    public UserBorrowDetail blocked(int uid, BlockException e) {
+        return new UserBorrowDetail(null, Collections.emptyList());
+    }
+
+
 }

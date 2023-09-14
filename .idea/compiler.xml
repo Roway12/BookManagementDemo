@@ -17,7 +17,7 @@
       <module name="book-service" target="17" />
       <module name="borrow-service" target="17" />
       <module name="commons" target="17" />
-      <module name="SpringCloudStudy" target="1.5" />
+      <module name="SpringCloudStudy" target="1.8" />
       <module name="user-service" target="17" />
     </bytecodeTargetLevel>
   </component>

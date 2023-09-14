@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Tue Sep 12 15:56:43 CST 2023:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-8864-8531-00001bc46030 
-on database directory /Users/roway/Downloads/SpringCloudStudy-alibaba/nacos/data/derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3ffc5af1 
-Loaded from jar:file:/Users/roway/Downloads/SpringCloudStudy-alibaba/nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.14.2.0.jar!/
+Thu Sep 14 15:18:18 CST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-928e-0e8f-00001bcc6470 
+on database directory /Users/roway/Desktop/cloud/BookManagementDemo/nacos/data/derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3ffc5af1 
+Loaded from jar:file:/Users/roway/Desktop/cloud/BookManagementDemo/nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.14.2.0.jar!/
 java.vendor=Eclipse Adoptium
 java.runtime.version=17.0.8+7
-user.dir=/Users/roway/Downloads/SpringCloudStudy-alibaba/nacos
+user.dir=/Users/roway/Desktop/cloud/BookManagementDemo/nacos
 os.name=Mac OS X
 os.arch=aarch64
 os.version=13.5.2
