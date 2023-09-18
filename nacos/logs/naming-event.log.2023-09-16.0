@@ -1,0 +1,230 @@
+2023-09-16 16:29:34,243 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 16:29:34,244 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+
+2023-09-16 16:29:39,263 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 16:29:39,263 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 172.18.71.254:8201_true,
+
+2023-09-16 16:29:44,413 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 16:29:44,413 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 172.18.71.254:8301_true,
+
+2023-09-16 17:58:49,021 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8201@DEFAULT@DEFAULT_GROUP@@borrow-service, region: unknown, msg: client timeout after 15000, last beat: 1694858286250
+
+2023-09-16 17:58:49,021 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8101@DEFAULT@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1694858286254
+
+2023-09-16 17:58:49,095 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 17:58:49,095 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
+
+2023-09-16 17:58:49,095 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 17:58:49,095 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2023-09-16 17:58:49,240 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8301@DEFAULT@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1694858286837
+
+2023-09-16 17:58:49,242 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8301:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 17:58:49,242 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2023-09-16 17:58:52,004 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 17:58:52,004 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 172.18.71.254:8201_true,
+
+2023-09-16 17:58:52,014 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 17:58:52,014 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+
+2023-09-16 17:58:52,592 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 17:58:52,592 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 172.18.71.254:8301_true,
+
+2023-09-16 18:00:55,646 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8101@DEFAULT@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1694858398023
+
+2023-09-16 18:00:55,646 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8201@DEFAULT@DEFAULT_GROUP@@borrow-service, region: unknown, msg: client timeout after 15000, last beat: 1694858398018
+
+2023-09-16 18:00:55,652 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 18:00:55,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
+
+2023-09-16 18:00:55,652 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 18:00:55,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2023-09-16 18:00:55,822 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8301@DEFAULT@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1694858398606
+
+2023-09-16 18:00:55,825 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8301:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 18:00:55,825 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2023-09-16 18:00:58,611 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 18:00:58,611 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 172.18.71.254:8201_true,
+
+2023-09-16 18:00:58,611 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 18:00:58,611 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+
+2023-09-16 18:00:59,190 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 18:00:59,190 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 172.18.71.254:8301_true,
+
+2023-09-16 18:07:02,950 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8101@DEFAULT@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1694858580859
+
+2023-09-16 18:07:02,950 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8201@DEFAULT@DEFAULT_GROUP@@borrow-service, region: unknown, msg: client timeout after 15000, last beat: 1694858580856
+
+2023-09-16 18:07:02,958 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 18:07:02,958 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2023-09-16 18:07:02,959 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 18:07:02,959 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
+
+2023-09-16 18:07:03,118 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8301@DEFAULT@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1694858581454
+
+2023-09-16 18:07:03,121 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8301:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 18:07:03,121 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2023-09-16 18:07:05,943 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 18:07:05,943 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+
+2023-09-16 18:07:05,944 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 18:07:05,944 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 172.18.71.254:8201_true,
+
+2023-09-16 18:07:06,544 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 18:07:06,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 172.18.71.254:8301_true,
+
+2023-09-16 18:40:09,088 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8201@DEFAULT@DEFAULT_GROUP@@borrow-service, region: unknown, msg: client timeout after 15000, last beat: 1694859786236
+
+2023-09-16 18:40:09,088 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8101@DEFAULT@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1694859786241
+
+2023-09-16 18:40:09,093 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 18:40:09,093 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2023-09-16 18:40:09,093 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 18:40:09,093 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
+
+2023-09-16 18:40:12,098 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 18:40:12,098 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 172.18.71.254:8201_true,
+
+2023-09-16 18:40:12,109 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 18:40:12,109 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+
+2023-09-16 18:55:15,826 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8101@DEFAULT@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1694860812108
+
+2023-09-16 18:55:15,826 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8201@DEFAULT@DEFAULT_GROUP@@borrow-service, region: unknown, msg: client timeout after 15000, last beat: 1694860812097
+
+2023-09-16 18:55:15,833 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 18:55:15,833 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2023-09-16 18:55:15,834 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 18:55:15,834 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
+
+2023-09-16 18:55:18,843 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 18:55:18,843 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 172.18.71.254:8201_true,
+
+2023-09-16 18:55:18,847 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 18:55:18,847 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+
+2023-09-16 19:01:24,389 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8101@DEFAULT@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1694861877798
+
+2023-09-16 19:01:24,389 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8201@DEFAULT@DEFAULT_GROUP@@borrow-service, region: unknown, msg: client timeout after 15000, last beat: 1694861877812
+
+2023-09-16 19:01:24,392 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 19:01:24,392 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2023-09-16 19:01:24,392 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 19:01:24,393 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
+
+2023-09-16 19:01:24,543 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8301@DEFAULT@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1694861878397
+
+2023-09-16 19:01:24,546 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8301:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 19:01:24,546 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2023-09-16 19:01:27,431 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 19:01:27,431 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+
+2023-09-16 19:01:27,447 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 19:01:27,447 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 172.18.71.254:8201_true,
+
+2023-09-16 19:01:28,039 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 19:01:28,039 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 172.18.71.254:8301_true,
+
+2023-09-16 22:05:15,972 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 22:05:15,972 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
+
+2023-09-16 22:05:58,478 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 22:05:58,478 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2023-09-16 22:37:26,079 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8101@DEFAULT@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1694874454966
+
+2023-09-16 22:37:26,085 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 22:37:26,085 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2023-09-16 22:37:29,822 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 22:37:29,822 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+
+2023-09-16 22:41:12,969 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8101@DEFAULT@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1694875221559
+
+2023-09-16 22:41:12,970 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 22:41:12,970 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2023-09-16 22:41:16,694 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 22:41:16,694 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+
+2023-09-16 22:54:56,715 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8101@DEFAULT@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1694875585463
+
+2023-09-16 22:54:56,717 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 22:54:56,717 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2023-09-16 22:55:00,258 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 22:55:00,258 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+
+2023-09-16 23:01:26,828 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8101@DEFAULT@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1694876418832
+
+2023-09-16 23:01:26,830 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 23:01:26,830 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2023-09-16 23:01:30,244 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 23:01:30,244 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+
+2023-09-16 23:10:14,347 INFO {POS} {IP-DISABLED} valid: 172.18.71.254:8101@DEFAULT@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1694876495242
+
+2023-09-16 23:10:14,351 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-09-16 23:10:14,351 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2023-09-16 23:10:17,754 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-09-16 23:10:17,754 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.71.254:8101_true,
+

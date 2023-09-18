@@ -1,34 +1,6 @@
-2023-09-14 15:18:54,892 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.48.160:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+2023-09-17 00:16:07,224 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.71.254:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-09-14 15:18:54,894 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 172.18.48.160:8101_true,
+2023-09-17 00:16:07,224 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
 
-2023-09-14 15:19:00,373 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.48.160:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2023-09-14 15:19:00,373 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 172.18.48.160:8201_true,
-
-2023-09-14 15:19:05,410 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.48.160:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2023-09-14 15:19:05,410 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 172.18.48.160:8301_true,
-
-2023-09-14 15:33:00,736 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.48.160:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2023-09-14 15:33:00,736 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
-
-2023-09-14 15:33:11,325 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.18.48.160:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2023-09-14 15:33:11,325 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 172.18.48.160:8201_true,
-
-2023-09-14 16:12:01,280 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.48.160:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2023-09-14 16:12:01,280 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
-
-2023-09-14 16:12:01,307 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.48.160:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2023-09-14 16:12:01,307 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
-
-2023-09-14 16:12:01,340 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.18.48.160:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2023-09-14 16:12:01,340 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
-
-2023-09-14 16:12:19,403 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+2023-09-17 00:24:36,697 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
 
