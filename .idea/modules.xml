@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringCloudStudy.iml" filepath="$PROJECT_DIR$/SpringCloudStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onauth-service/auth-service.iml" filepath="$PROJECT_DIR$/onauth-service/auth-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/book-service/book-service.iml" filepath="$PROJECT_DIR$/book-service/book-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/borrow-service/borrow-service.iml" filepath="$PROJECT_DIR$/borrow-service/borrow-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />

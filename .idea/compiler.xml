@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="auth-service" />
         <module name="user-service" />
         <module name="book-service" />
         <module name="commons" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth-service" target="17" />
       <module name="book-service" target="17" />
       <module name="borrow-service" target="17" />
       <module name="commons" target="17" />
@@ -24,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringCloudStudy" options="-parameters" />
+      <module name="auth-service" options="-parameters" />
       <module name="book-service" options="-parameters" />
       <module name="borrow-service" options="-parameters" />
       <module name="commons" options="-parameters" />
