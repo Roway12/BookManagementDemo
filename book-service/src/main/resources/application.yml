@@ -27,3 +27,21 @@ spring:
           bookservice-seata-service-group: default
         grouplist:
           default: localhost:8868
+security:
+  oauth2:
+    client:
+      client-id: web
+      client-secret: 654321
+      #Token获取地址
+      access-token-uri: http://localhost:8500/sso/oauth/token
+      #验证页面地址
+      user-authorization-uri: http://localhost:8500/sso/oauth/authorize
+    resource:
+      #Token信息获取和校验地址
+      token-info-uri: http://localhost:8500/sso/oauth/check_token
+feign:
+  oauth2:
+    #开启Oauth支持，这样就会在请求头中携带Token了
+    enabled: true
+    #同时开启负载均衡支持
+    load-balanced: true

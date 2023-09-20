@@ -8,7 +8,7 @@
         <module>book-service</module>
         <module>borrow-service</module>
         <module>commons</module>
-        <module>onauth-service</module>
+        <module>oauth-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -19,3 +19,9 @@ spring:
       transport:
         # 添加监控页面地址即可
         dashboard: localhost:8858
+feign:
+  oauth2:
+    #开启Oauth支持，这样就会在请求头中携带Token了
+    enabled: true
+    #同时开启负载均衡支持
+    load-balanced: true

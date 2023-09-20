@@ -10,6 +10,7 @@
         <module name="auth-service" />
         <module name="user-service" />
         <module name="book-service" />
+        <module name="oauth-service" />
         <module name="commons" />
         <module name="borrow-service" />
       </profile>
@@ -19,6 +20,8 @@
       <module name="book-service" target="17" />
       <module name="borrow-service" target="17" />
       <module name="commons" target="17" />
+      <module name="oauth-service" target="17" />
+      <module name="onauth-service" target="17" />
       <module name="SpringCloudStudy" target="1.8" />
       <module name="user-service" target="17" />
     </bytecodeTargetLevel>
@@ -30,6 +33,8 @@
       <module name="book-service" options="-parameters" />
       <module name="borrow-service" options="-parameters" />
       <module name="commons" options="-parameters" />
+      <module name="oauth-service" options="-parameters" />
+      <module name="onauth-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

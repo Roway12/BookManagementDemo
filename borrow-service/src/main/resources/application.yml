@@ -20,3 +20,14 @@ spring:
         # 添加监控页面地址即可
         dashboard: localhost:8858
       block-page: /blocked
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-value: lbwnb #注意这里要跟验证服务器的密钥一致，这样算出来的签名才会一致
+feign:
+  oauth2:
+    #开启Oauth支持，这样就会在请求头中携带Token了
+    enabled: true
+    #同时开启负载均衡支持
+    load-balanced: true
